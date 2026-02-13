@@ -1,0 +1,5 @@
+Dataset/
+*.pyc
+*.log
+*.tmp
+*.npy
