@@ -1,0 +1,50 @@
+Informe final: competencia de datasets agrupados
+dataset: none
+- mejor trial: 25
+- f1 macro alcanzado: 0.9656
+- hiperparametros ganadores:
+* weight_func: none
+* fs_method: tree
+* k_features: 57
+* n_estimators: 289
+* max_depth: 37
+* min_samples_split: 4
+* min_samples_leaf: 2
+* max_features: sqrt
+dataset: smote
+- mejor trial: 15
+- f1 macro alcanzado: 0.9611
+- hiperparametros ganadores:
+* weight_func: none
+* fs_method: tree
+* k_features: 55
+* n_estimators: 254
+* max_depth: 40
+* min_samples_split: 5
+* min_samples_leaf: 3
+* max_features: log2
+dataset: smote_enn
+- mejor trial: 61
+- f1 macro alcanzado: 0.9581
+- hiperparametros ganadores:
+* weight_func: none
+* fs_method: tree
+* k_features: 39
+* n_estimators: 290
+* max_depth: 48
+* min_samples_split: 5
+* min_samples_leaf: 3
+* max_features: log2
+dataset: smote_tomek
+- mejor trial: 52
+- f1 macro alcanzado: 0.9614
+- hiperparametros ganadores:
+* weight_func: none
+* fs_method: none
+* n_estimators: 225
+* max_depth: 49
+* min_samples_split: 10
+* min_samples_leaf: 3
+* max_features: log2
+
+ganador absoluto: none (f1 macro: 0.9656)

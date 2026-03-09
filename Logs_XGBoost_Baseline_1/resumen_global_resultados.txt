@@ -1,0 +1,48 @@
+informe final: competencia de datasets agrupados (xgboost)
+dataset: none
+- mejor trial: 65
+- f1 macro alcanzado: 0.9617
+- hiperparametros ganadores:
+* weight_func: none
+* fs_method: tree
+* k_features: 59
+* n_estimators: 387
+* max_depth: 9
+* learning_rate: 0.1505830237684683
+* subsample: 0.9988985881667181
+* colsample_bytree: 0.6463159010113986
+dataset: smote
+- mejor trial: 65
+- f1 macro alcanzado: 0.9529
+- hiperparametros ganadores:
+* weight_func: none
+* fs_method: none
+* n_estimators: 377
+* max_depth: 7
+* learning_rate: 0.0922100112806016
+* subsample: 0.6213367240678677
+* colsample_bytree: 0.859904818858891
+dataset: smote_enn
+- mejor trial: 70
+- f1 macro alcanzado: 0.9509
+- hiperparametros ganadores:
+* weight_func: balanced
+* fs_method: none
+* n_estimators: 353
+* max_depth: 15
+* learning_rate: 0.18643013865156902
+* subsample: 0.8758674229116665
+* colsample_bytree: 0.9826219307845969
+dataset: smote_tomek
+- mejor trial: 38
+- f1 macro alcanzado: 0.9544
+- hiperparametros ganadores:
+* weight_func: none
+* fs_method: none
+* n_estimators: 161
+* max_depth: 8
+* learning_rate: 0.16975347514334424
+* subsample: 0.9337508865655523
+* colsample_bytree: 0.7759752037198928
+
+ganador absoluto: none (f1 macro: 0.9617)

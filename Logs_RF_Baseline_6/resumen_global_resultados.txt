@@ -1,0 +1,55 @@
+Informe final: Competencia de datasets con y sin Oversampling
+Dataset: none
+- Mejor trial: 63
+- F1 macro alcanzado: 0.8533
+- Hiperparametros ganadores:
+* weight_func: cost_sensitive
+* web_boost: 1.731189591019194
+* bot_boost: 1.5822756572201808
+* fs_method: tree
+* k_features: 31
+* n_estimators: 275
+* max_depth: 41
+* min_samples_split: 5
+* min_samples_leaf: 2
+* max_features: log2
+Dataset: smote
+- Mejor trial: 48
+- F1 macro alcanzado: 0.8789
+- Hiperparametros ganadores:
+* weight_func: none
+* fs_method: tree
+* k_features: 32
+* n_estimators: 226
+* max_depth: 42
+* min_samples_split: 10
+* min_samples_leaf: 1
+* max_features: sqrt
+Dataset: smote_enn
+- Mejor trial: 62
+- F1 macro alcanzado: 0.8689
+- Hiperparametros ganadores:
+* weight_func: log_ratio
+* web_boost: 2.621853986343816
+* bot_boost: 2.8234200656467965
+* fs_method: tree
+* k_features: 35
+* n_estimators: 335
+* max_depth: 36
+* min_samples_split: 4
+* min_samples_leaf: 1
+* max_features: log2
+Dataset: smote_tomek
+- Mejor trial: 8
+- F1 macro alcanzado: 0.8303
+- Hiperparametros ganadores:
+* weight_func: none
+* fs_method: tree
+* k_features: 61
+* n_estimators: 310
+* max_depth: 49
+* min_samples_split: 4
+* min_samples_leaf: 3
+* max_features: sqrt
+
+Ganador Absoluto: smote (F1 macro: 0.8789)
