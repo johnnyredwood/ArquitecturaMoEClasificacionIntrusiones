@@ -1,5 +1,0 @@
-Informe: Baseline MLP con Tab ResNet
-Dataset: none | F1: 0.9385
-Dataset: smote_tomek | F1: 0.9374
-Dataset: smote | F1: 0.9328
-Dataset: smote_enn | F1: 0.9468

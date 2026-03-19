@@ -1,0 +1,5 @@
+Informe: ResNet Baseline 3
+Dataset: none         | F1: 0.9431 | Trial: 18
+Dataset: smote_tomek  | F1: 0.9349 | Trial: 23
+Dataset: smote        | F1: 0.9485 | Trial: 15
+Dataset: smote_enn    | F1: 0.8725 | Trial: 5
