@@ -1,0 +1,38 @@
+Informe final: Baseline MLP
+Dataset: none
+- Mejor trial: 21
+- F1 macro alcanzado: 0.8798
+- Hiperparametros ganadores:
+  * batch_size: 4096
+  * n_layers: 2
+  * n_units: 1024
+  * lr: 0.0006200093358476453
+
+Dataset: smote_tomek
+- Mejor trial: 15
+- F1 macro alcanzado: 0.8848
+- Hiperparametros ganadores:
+  * batch_size: 8192
+  * n_layers: 3
+  * n_units: 768
+  * lr: 0.0009753865891732886
+
+Dataset: smote
+- Mejor trial: 23
+- F1 macro alcanzado: 0.8858
+- Hiperparametros ganadores:
+  * batch_size: 8192
+  * n_layers: 2
+  * n_units: 1024
+  * lr: 0.00044931955061787595
+
+Dataset: smote_enn
+- Mejor trial: 24
+- F1 macro alcanzado: 0.8180
+- Hiperparametros ganadores:
+  * batch_size: 4096
+  * n_layers: 3
+  * n_units: 768
+  * lr: 0.0005231693596663353
+
+Ganador absoluto: smote (F1 macro: 0.8858)

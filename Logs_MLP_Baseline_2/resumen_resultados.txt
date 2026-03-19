@@ -1,0 +1,5 @@
+Informe: Baseline MLP
+Dataset: none | F1: 0.8838
+Dataset: smote_tomek | F1: 0.8858
+Dataset: smote | F1: 0.8928
+Dataset: smote_enn | F1: 0.8175
