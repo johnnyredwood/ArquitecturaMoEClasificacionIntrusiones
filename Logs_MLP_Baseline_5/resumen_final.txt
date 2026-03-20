@@ -1,0 +1,5 @@
+Informe: Residual Network con algunas mejoras- Baseline 4
+Dataset: none         | F1: 0.8132 | Trial: 6
+Dataset: smote_tomek  | F1: 0.8256 | Trial: 23
+Dataset: smote        | F1: 0.8356 | Trial: 9
+Dataset: smote_enn    | F1: 0.8214 | Trial: 9
