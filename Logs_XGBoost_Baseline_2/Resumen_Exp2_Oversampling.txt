@@ -1,0 +1,12 @@
+Dataset: SMOTE
+Mejor F1 Macro: 0.8230 (Trial 36)
+Params: {'n_estimators': 487, 'max_depth': 24, 'learning_rate': 0.03785009390352535, 'subsample': 0.7586863195923691, 'colsample_bytree': 0.8123829853364816, 'colsample_bynode': 0.885267398896569}
+
+Dataset: SMOTE_ENN
+Mejor F1 Macro: 0.8105 (Trial 12)
+Params: {'n_estimators': 456, 'max_depth': 6, 'learning_rate': 0.06266910320214737, 'subsample': 0.9884601204905814, 'colsample_bytree': 0.9977869063003528, 'colsample_bynode': 0.7091238612378662}
+
+Dataset: SMOTE_TOMEK
+Mejor F1 Macro: 0.8235 (Trial 48)
+Params: {'n_estimators': 443, 'max_depth': 26, 'learning_rate': 0.03065450772209309, 'subsample': 0.7170352497722854, 'colsample_bytree': 0.8415367027572737, 'colsample_bynode': 0.8649914096594061}
+

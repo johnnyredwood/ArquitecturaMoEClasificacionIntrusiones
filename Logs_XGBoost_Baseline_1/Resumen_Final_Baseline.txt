@@ -1,0 +1,3 @@
+Resultados Finales XGBoost Baseline
+Mejor F1 Macro: 0.8047
+Mejores Hiperparámetros: {'n_estimators': 533, 'max_depth': 22, 'learning_rate': 0.07198458132074173, 'subsample': 0.7493272281145942, 'colsample_bytree': 0.7898260520656288, 'colsample_bynode': 0.9225913983436678}

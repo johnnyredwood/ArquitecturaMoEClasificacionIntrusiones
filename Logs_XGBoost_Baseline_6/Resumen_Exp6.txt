@@ -1,0 +1,2 @@
+Resumen Experimento 6Mejor F1 Macro: 0.8735 (Trial 75)
+Params Ganadores: {'dataset': 'none', 'fs_method': 'none', 'weight_method': 'balanced', 'n_estimators': 783, 'max_depth': 13, 'learning_rate': 0.11687847972600902, 'subsample': 0.9302273616375747, 'colsample_bytree': 0.6661492479334324, 'colsample_bynode': 0.9386104663924604}

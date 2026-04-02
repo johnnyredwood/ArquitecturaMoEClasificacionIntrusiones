@@ -1,0 +1,6 @@
+Método de Feature Selection: F_CLASSIF
+Mejor F1 Macro: 0.8376 (Trial 24)
+Params: {'k_features': 64, 'n_estimators': 92, 'max_depth': 90, 'min_samples_split': 7, 'min_samples_leaf': 2, 'max_features': None, 'criterion': 'entropy'}
+Método de Feature Selection: TREE
+Mejor F1 Macro: 0.8510 (Trial 33)
+Params: {'k_features': 51, 'n_estimators': 453, 'max_depth': 77, 'min_samples_split': 17, 'min_samples_leaf': 2, 'max_features': None, 'criterion': 'entropy'}

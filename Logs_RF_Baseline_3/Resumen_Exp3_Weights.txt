@@ -1,0 +1,16 @@
+Experimento Random Forest con Método de Peso: BALANCED
+Mejor F1 Macro: 0.8911 (Trial 49)
+Params: {'n_estimators': 219, 'max_depth': 30, 'min_samples_split': 7, 'min_samples_leaf': 1, 'max_features': None, 'criterion': 'entropy'}
+
+Experimento Random Forest con Método de Peso: POLYNOMIAL
+Mejor F1 Macro: 0.8812 (Trial 48)
+Params: {'poly_alpha': 0.8864541526633676, 'n_estimators': 197, 'max_depth': 69, 'min_samples_split': 15, 'min_samples_leaf': 2, 'max_features': None, 'criterion': 'gini'}
+
+Experimento Random Forest con Método de Peso: EFFECTIVE_SAMPLES
+Mejor F1 Macro: 0.8405 (Trial 36)
+Params: {'beta_eff_samp': 0.946002996059376, 'n_estimators': 478, 'max_depth': 75, 'min_samples_split': 4, 'min_samples_leaf': 2, 'max_features': None, 'criterion': 'entropy'}
+
+Experimento Random Forest con Método de Peso: FOCAL
+Mejor F1 Macro: 0.8871 (Trial 43)
+Params: {'focal_gamma': 1.388670032128727, 'n_estimators': 217, 'max_depth': 67, 'min_samples_split': 9, 'min_samples_leaf': 4, 'max_features': None, 'criterion': 'entropy'}
+

@@ -1,0 +1,2 @@
+Resumen Experimento 7-Datos AgrupadosMejor F1 Macro: 0.9618 (Trial 98)
+Params Ganadores: {'dataset': 'none', 'fs_method': 'none', 'weight_method': 'none', 'n_estimators': 525, 'max_depth': 6, 'learning_rate': 0.18499879781578069, 'subsample': 0.96350627411532, 'colsample_bytree': 0.643822719473229, 'colsample_bynode': 0.7426079610710496}

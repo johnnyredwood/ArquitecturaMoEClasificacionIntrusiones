@@ -1,0 +1,16 @@
+Método de Peso: BALANCED
+Mejor F1 Macro: 0.8816 (Trial 27)
+Params: {'n_estimators': 882, 'max_depth': 24, 'learning_rate': 0.14866856132426257, 'subsample': 0.8310515115996882, 'colsample_bytree': 0.8034948789651247, 'colsample_bynode': 0.9011915856068373}
+
+Método de Peso: POLYNOMIAL
+Mejor F1 Macro: 0.8389 (Trial 28)
+Params: {'poly_alpha': 0.5658694201010552, 'n_estimators': 651, 'max_depth': 8, 'learning_rate': 0.05769794893658707, 'subsample': 0.9001593690080366, 'colsample_bytree': 0.7564909711967025, 'colsample_bynode': 0.7455802734801714}
+
+Método de Peso: EFFECTIVE_SAMPLES
+Mejor F1 Macro: 0.8055 (Trial 42)
+Params: {'beta_eff_samp': 0.9265072850441, 'n_estimators': 207, 'max_depth': 23, 'learning_rate': 0.05443399963548984, 'subsample': 0.9586431937080564, 'colsample_bytree': 0.8971120969892925, 'colsample_bynode': 0.900028066662778}
+
+Método de Peso: FOCAL
+Mejor F1 Macro: 0.6651 (Trial 23)
+Params: {'focal_gamma': 0.5121264502497319, 'n_estimators': 809, 'max_depth': 27, 'learning_rate': 0.1017675115660355, 'subsample': 0.9827497555117869, 'colsample_bytree': 0.9220919248336963, 'colsample_bynode': 0.891123442030785}
+

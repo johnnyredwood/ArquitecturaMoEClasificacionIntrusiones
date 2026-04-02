@@ -1,0 +1,4 @@
+Resumen del Experimento 6
+Mejor F1 Macro: 0.8870
+Parámetros Ganadores:
+{'dataset': 'none', 'fs_method': 'none', 'weight_method': 'balanced', 'n_estimators': 290, 'max_depth': 28, 'min_samples_split': 5, 'min_samples_leaf': 5, 'max_features': None, 'criterion': 'entropy'}
