@@ -1,0 +1,28 @@
+Evaluacion Final en Test Set - Experimento 4 (Feature Selection TREE)
+k_features seleccionadas: 51
+Hiperparámetros de Optuna: {'n_estimators': 453, 'max_depth': 77, 'min_samples_split': 17, 'min_samples_leaf': 2, 'max_features': None, 'criterion': 'entropy', 'n_jobs': -1, 'random_state': 42}
+
+F1 Macro en Test: 0.8536
+
+Reporte de Clasificación Detallado:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    307072
+           1       0.84      0.50      0.63       295
+           2       1.00      1.00      1.00     19204
+           3       1.00      0.99      0.99      1544
+           4       1.00      1.00      1.00     34661
+           5       0.99      0.99      0.99       825
+           6       1.00      0.99      1.00       870
+           7       1.00      1.00      1.00      1190
+           8       1.00      1.00      1.00         2
+           9       1.00      1.00      1.00         5
+          10       0.99      1.00      1.00     23840
+          11       0.98      1.00      0.99       884
+          12       0.74      0.85      0.79       226
+          13       0.00      0.00      0.00         3
+          14       0.52      0.36      0.42        98
+
+    accuracy                           1.00    390719
+   macro avg       0.87      0.85      0.85    390719
+weighted avg       1.00      1.00      1.00    390719
