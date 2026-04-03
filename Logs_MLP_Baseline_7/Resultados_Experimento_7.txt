@@ -1,0 +1,4 @@
+Resumen Experimento 7 MLP:
+Mejor F1 Macro: 0.9166
+Parámetros Ganadores:
+{'dataset': 'smote_enn', 'fs_method': 'none', 'loss_function': 'cross_entropy', 'weight_method': 'none', 'batch_size': 4096, 'n_layers': 2, 'n_units': 256, 'dropout_rate': 0.15366991071861089, 'activation': 'leaky_relu', 'lr': 0.000822912285514681, 'weight_decay': 2.251040105275986e-06, 'epochs': 59}
