@@ -1,0 +1,27 @@
+Evaluacion Final en Test Set - XGBoost Baseline
+Hiperparámetros de Optuna: {'n_estimators': 533, 'max_depth': 22, 'learning_rate': 0.07198458132074173, 'subsample': 0.7493272281145942, 'colsample_bytree': 0.7898260520656288, 'colsample_bynode': 0.9225913983436678, 'tree_method': 'hist', 'device': 'cuda', 'random_state': 42}
+
+F1 Macro en Test: 0.8321
+
+Reporte de Clasificación Detallado:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    307072
+           1       0.77      0.39      0.52       295
+           2       1.00      1.00      1.00     19204
+           3       1.00      0.99      1.00      1544
+           4       1.00      1.00      1.00     34661
+           5       0.99      0.99      0.99       825
+           6       1.00      1.00      1.00       870
+           7       1.00      1.00      1.00      1190
+           8       1.00      1.00      1.00         2
+           9       1.00      0.80      0.89         5
+          10       0.99      1.00      1.00     23840
+          11       0.99      1.00      0.99       884
+          12       0.72      0.71      0.71       226
+          13       0.00      0.00      0.00         3
+          14       0.38      0.40      0.39        98
+
+    accuracy                           1.00    390719
+   macro avg       0.86      0.82      0.83    390719
+weighted avg       1.00      1.00      1.00    390719

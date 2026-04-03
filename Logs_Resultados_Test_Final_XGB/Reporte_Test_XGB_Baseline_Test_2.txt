@@ -1,0 +1,27 @@
+Evaluacion Final en Test Set - XGBoost Experimento 2 (SMOTE_TOMEK)
+Hiperparámetros de Optuna: {'n_estimators': 443, 'max_depth': 26, 'learning_rate': 0.03065450772209309, 'subsample': 0.7170352497722854, 'colsample_bytree': 0.8415367027572737, 'colsample_bynode': 0.8649914096594061, 'tree_method': 'hist', 'device': 'cuda', 'random_state': 42}
+
+F1 Macro en Test: 0.8348
+
+Reporte de Clasificación Detallado:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    307072
+           1       0.38      0.74      0.50       295
+           2       1.00      1.00      1.00     19204
+           3       0.99      1.00      1.00      1544
+           4       1.00      1.00      1.00     34661
+           5       0.99      0.99      0.99       825
+           6       0.99      1.00      0.99       870
+           7       1.00      1.00      1.00      1190
+           8       1.00      1.00      1.00         2
+           9       1.00      0.80      0.89         5
+          10       0.99      1.00      1.00     23840
+          11       0.98      1.00      0.99       884
+          12       0.76      0.74      0.75       226
+          13       0.00      0.00      0.00         3
+          14       0.38      0.47      0.42        98
+
+    accuracy                           1.00    390719
+   macro avg       0.83      0.85      0.83    390719
+weighted avg       1.00      1.00      1.00    390719
