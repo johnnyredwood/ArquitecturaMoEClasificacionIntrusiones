@@ -1,0 +1,4 @@
+Resumen Experimento 6 MLP:
+Mejor F1 Macro: 0.7669
+Parámetros Ganadores:
+{'dataset': 'none', 'fs_method': 'none', 'loss_function': 'cross_entropy', 'weight_method': 'none', 'batch_size': 16384, 'n_layers': 2, 'n_units': 512, 'dropout_rate': 0.42846027632732114, 'activation': 'gelu', 'lr': 0.0004295534166068324, 'weight_decay': 9.92741862009386e-06, 'epochs': 80}

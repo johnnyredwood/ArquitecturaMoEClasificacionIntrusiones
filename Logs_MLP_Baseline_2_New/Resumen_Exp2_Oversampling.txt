@@ -1,0 +1,12 @@
+Dataset: SMOTE
+Mejor F1 Macro: 0.7890 (Trial 23)
+Params: {'batch_size': 8192, 'n_layers': 4, 'n_units': 1024, 'dropout_rate': 0.15891699860990605, 'activation': 'leaky_relu', 'lr': 0.00036635176950199696, 'weight_decay': 6.6631330528683145e-06, 'epochs': 82}
+
+Dataset: SMOTE_ENN
+Mejor F1 Macro: 0.7904 (Trial 43)
+Params: {'batch_size': 4096, 'n_layers': 3, 'n_units': 768, 'dropout_rate': 0.29647145408290937, 'activation': 'leaky_relu', 'lr': 0.00016332182321991082, 'weight_decay': 8.033054547048967e-06, 'epochs': 78}
+
+Dataset: SMOTE_TOMEK
+Mejor F1 Macro: 0.7550 (Trial 22)
+Params: {'batch_size': 16384, 'n_layers': 2, 'n_units': 256, 'dropout_rate': 0.24004221311076315, 'activation': 'leaky_relu', 'lr': 0.00046963225837141367, 'weight_decay': 3.12662645040954e-05, 'epochs': 81}
+
