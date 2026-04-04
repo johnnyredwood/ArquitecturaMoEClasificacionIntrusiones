@@ -1,0 +1,26 @@
+Evaluacion Final en Test Set - MLP Experimento 7 (Datos Agrupados)
+Configuración: Dataset='smote_enn', FS='none', Loss='cross_entropy', Weight='none', num_classes=13
+Hiperparámetros de Optuna: {'batch_size': 4096, 'n_layers': 2, 'n_units': 256, 'dropout_rate': 0.15366991071861089, 'activation': 'leaky_relu', 'lr': 0.000822912285514681, 'weight_decay': 2.251040105275986e-06, 'epochs': 59}
+
+F1 Macro en Test: 0.7642
+
+Reporte de Clasificación Detallado:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00    307072
+           1       0.20      0.86      0.32       295
+           2       1.00      1.00      1.00     19204
+           3       0.97      1.00      0.98      1544
+           4       0.99      1.00      1.00     34661
+           5       0.89      0.99      0.93       825
+           6       0.99      0.99      0.99       870
+           7       0.99      1.00      0.99      1190
+           8       0.00      0.00      0.00         2
+           9       0.50      0.40      0.44         5
+          10       0.99      1.00      1.00     23840
+          11       0.95      0.99      0.97       884
+          12       0.19      0.90      0.32       327
+
+    accuracy                           0.99    390719
+   macro avg       0.74      0.85      0.76    390719
+weighted avg       1.00      0.99      0.99    390719

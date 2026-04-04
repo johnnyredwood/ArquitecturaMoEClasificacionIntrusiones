@@ -1,0 +1,27 @@
+Evaluacion Final en Test Set - MLP Experimento 3 (POLYNOMIAL)
+Hiperparámetros de Optuna: {'batch_size': 16384, 'n_layers': 3, 'n_units': 512, 'dropout_rate': 0.2630967973253173, 'activation': 'leaky_relu', 'lr': 0.0002269343077526274, 'weight_decay': 0.0003556939051918942, 'epochs': 61, 'poly_alpha': 0.34183481330155585}
+
+F1 Macro en Test: 0.7486
+
+Reporte de Clasificación Detallado:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99    307072
+           1       0.56      0.58      0.57       295
+           2       1.00      1.00      1.00     19204
+           3       0.97      0.99      0.98      1544
+           4       0.97      1.00      0.98     34661
+           5       0.89      0.99      0.94       825
+           6       0.96      0.99      0.97       870
+           7       1.00      0.99      0.99      1190
+           8       0.67      1.00      0.80         2
+           9       0.80      0.80      0.80         5
+          10       0.99      1.00      1.00     23840
+          11       0.94      0.98      0.96       884
+          12       0.10      0.85      0.18       226
+          13       0.00      0.00      0.00         3
+          14       1.00      0.03      0.06        98
+
+    accuracy                           0.99    390719
+   macro avg       0.79      0.81      0.75    390719
+weighted avg       0.99      0.99      0.99    390719
