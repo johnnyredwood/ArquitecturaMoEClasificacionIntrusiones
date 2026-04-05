@@ -1,0 +1,158 @@
+{
+  "metodo": "smote_enn",
+  "proporcion_config": {
+    "12": 25000,
+    "14": 10000,
+    "13": 2500
+  },
+  "resumen": {
+    "muestras_antes": 5692,
+    "muestras_despues": 31760,
+    "incremento_total": 26068
+  },
+  "distribucion_original": {
+    "12.0": 1055,
+    "14.0": 456,
+    "13.0": 15,
+    "0.0": 3277,
+    "2.0": 205,
+    "3.0": 17,
+    "4.0": 370,
+    "10.0": 254,
+    "7.0": 13,
+    "11.0": 9,
+    "6.0": 9,
+    "5.0": 9,
+    "1.0": 3
+  },
+  "distribucion_final": {
+    "0.0": 3122,
+    "2.0": 194,
+    "3.0": 3,
+    "4.0": 343,
+    "5.0": 4,
+    "7.0": 11,
+    "10.0": 226,
+    "11.0": 5,
+    "12.0": 20083,
+    "13.0": 2163,
+    "14.0": 5606
+  },
+  "analisis_por_clase": {
+    "0.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 3277,
+      "finales": 3122,
+      "sinteticas_puras_detectadas": 1,
+      "multiplicador": 0.95,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.526063,
+        "distancia_media_sinteticos_a_originales": 0.0,
+        "porcentaje_duplicados_exactos": 100.0,
+        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 100.0%)"
+      }
+    },
+    "1.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 3,
+      "finales": 0,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.0
+    },
+    "2.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 205,
+      "finales": 194,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.95
+    },
+    "3.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 17,
+      "finales": 3,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.18
+    },
+    "4.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 370,
+      "finales": 343,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.93
+    },
+    "5.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 9,
+      "finales": 4,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.44
+    },
+    "6.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 9,
+      "finales": 0,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.0
+    },
+    "7.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 13,
+      "finales": 11,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.85
+    },
+    "10.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 254,
+      "finales": 226,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.89
+    },
+    "11.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 9,
+      "finales": 5,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.56
+    },
+    "12.0": {
+      "estado": "Oversampled",
+      "originales": 1055,
+      "finales": 20083,
+      "sinteticas_puras_detectadas": 18108,
+      "multiplicador": 19.04,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.020858,
+        "distancia_media_sinteticos_a_originales": 0.00814,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "13.0": {
+      "estado": "Oversampled",
+      "originales": 15,
+      "finales": 2163,
+      "sinteticas_puras_detectadas": 2151,
+      "multiplicador": 144.2,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.384094,
+        "distancia_media_sinteticos_a_originales": 0.360503,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "14.0": {
+      "estado": "Oversampled",
+      "originales": 456,
+      "finales": 5606,
+      "sinteticas_puras_detectadas": 5220,
+      "multiplicador": 12.29,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.040834,
+        "distancia_media_sinteticos_a_originales": 0.02662,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    }
+  }
+}

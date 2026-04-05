@@ -1,0 +1,159 @@
+{
+  "metodo": "smote_tomek",
+  "proporcion_config": {
+    "12": 25000,
+    "14": 10000,
+    "13": 2500
+  },
+  "resumen": {
+    "muestras_antes": 5692,
+    "muestras_despues": 39724,
+    "incremento_total": 34032
+  },
+  "distribucion_original": {
+    "12.0": 1055,
+    "14.0": 456,
+    "13.0": 15,
+    "0.0": 3277,
+    "2.0": 205,
+    "3.0": 17,
+    "4.0": 370,
+    "10.0": 254,
+    "7.0": 13,
+    "11.0": 9,
+    "6.0": 9,
+    "5.0": 9,
+    "1.0": 3
+  },
+  "distribucion_final": {
+    "12.0": 24052,
+    "14.0": 9168,
+    "13.0": 2364,
+    "0.0": 3264,
+    "2.0": 205,
+    "3.0": 16,
+    "4.0": 368,
+    "10.0": 249,
+    "7.0": 13,
+    "11.0": 9,
+    "6.0": 7,
+    "5.0": 9
+  },
+  "analisis_por_clase": {
+    "0.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 3277,
+      "finales": 3264,
+      "sinteticas_puras_detectadas": 1,
+      "multiplicador": 1.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.526063,
+        "distancia_media_sinteticos_a_originales": 0.0,
+        "porcentaje_duplicados_exactos": 100.0,
+        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 100.0%)"
+      }
+    },
+    "1.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 3,
+      "finales": 0,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.0
+    },
+    "2.0": {
+      "estado": "Intacto",
+      "originales": 205,
+      "finales": 205,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "3.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 17,
+      "finales": 16,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.94
+    },
+    "4.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 370,
+      "finales": 368,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.99
+    },
+    "5.0": {
+      "estado": "Intacto",
+      "originales": 9,
+      "finales": 9,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "6.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 9,
+      "finales": 7,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.78
+    },
+    "7.0": {
+      "estado": "Intacto",
+      "originales": 13,
+      "finales": 13,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "10.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 254,
+      "finales": 249,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.98
+    },
+    "11.0": {
+      "estado": "Intacto",
+      "originales": 9,
+      "finales": 9,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "12.0": {
+      "estado": "Oversampled",
+      "originales": 1055,
+      "finales": 24052,
+      "sinteticas_puras_detectadas": 21934,
+      "multiplicador": 22.8,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.020858,
+        "distancia_media_sinteticos_a_originales": 0.008382,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "13.0": {
+      "estado": "Oversampled",
+      "originales": 15,
+      "finales": 2364,
+      "sinteticas_puras_detectadas": 2349,
+      "multiplicador": 157.6,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.384094,
+        "distancia_media_sinteticos_a_originales": 0.336019,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "14.0": {
+      "estado": "Oversampled",
+      "originales": 456,
+      "finales": 9168,
+      "sinteticas_puras_detectadas": 8640,
+      "multiplicador": 20.11,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.040834,
+        "distancia_media_sinteticos_a_originales": 0.018093,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    }
+  }
+}
