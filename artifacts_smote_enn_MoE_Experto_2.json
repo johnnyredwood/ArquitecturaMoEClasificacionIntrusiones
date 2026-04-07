@@ -6,48 +6,52 @@
     "10": 200000
   },
   "resumen": {
-    "muestras_antes": 429287,
-    "muestras_despues": 665492,
-    "incremento_total": 236205
+    "muestras_antes": 962621,
+    "muestras_despues": 1195523,
+    "incremento_total": 232902
   },
   "distribucion_original": {
     "4.0": 161751,
     "2.0": 89619,
     "10.0": 111251,
-    "0.0": 65400,
-    "6.0": 185,
-    "7.0": 254,
-    "11.0": 188,
-    "3.0": 329,
-    "5.0": 176,
-    "12.0": 48,
-    "1.0": 63,
-    "14.0": 21,
-    "13.0": 1,
-    "9.0": 1
+    "0.0": 588603,
+    "3.0": 2960,
+    "7.0": 2283,
+    "1.0": 566,
+    "6.0": 1667,
+    "5.0": 1581,
+    "12.0": 434,
+    "14.0": 188,
+    "11.0": 1696,
+    "13.0": 7,
+    "9.0": 11,
+    "8.0": 4
   },
   "distribucion_final": {
-    "0.0": 64823,
-    "1.0": 16,
-    "2.0": 199931,
-    "3.0": 303,
-    "4.0": 199803,
-    "5.0": 163,
-    "6.0": 166,
-    "7.0": 247,
-    "10.0": 199868,
-    "11.0": 163,
-    "12.0": 9
+    "0.0": 586532,
+    "1.0": 232,
+    "2.0": 199901,
+    "3.0": 2889,
+    "4.0": 199477,
+    "5.0": 1525,
+    "6.0": 1628,
+    "7.0": 2272,
+    "8.0": 4,
+    "9.0": 4,
+    "10.0": 199245,
+    "11.0": 1614,
+    "12.0": 180,
+    "14.0": 20
   },
   "analisis_por_clase": {
     "0.0": {
       "estado": "Undersampled / Limpiado",
-      "originales": 65400,
-      "finales": 64823,
-      "sinteticas_puras_detectadas": 30,
-      "multiplicador": 0.99,
+      "originales": 588603,
+      "finales": 586532,
+      "sinteticas_puras_detectadas": 179,
+      "multiplicador": 1.0,
       "metricas_vecindario": {
-        "distancia_media_interna_original": 0.207144,
+        "distancia_media_interna_original": 0.108475,
         "distancia_media_sinteticos_a_originales": 2e-06,
         "porcentaje_duplicados_exactos": 0.0,
         "riesgo_artefactos": "Bajo (Consistente)"
@@ -55,118 +59,131 @@
     },
     "1.0": {
       "estado": "Undersampled / Limpiado",
-      "originales": 63,
-      "finales": 16,
+      "originales": 566,
+      "finales": 232,
       "sinteticas_puras_detectadas": 0,
-      "multiplicador": 0.25
+      "multiplicador": 0.41
     },
     "2.0": {
       "estado": "Oversampled",
       "originales": 89619,
-      "finales": 199931,
-      "sinteticas_puras_detectadas": 108589,
+      "finales": 199901,
+      "sinteticas_puras_detectadas": 108574,
       "multiplicador": 2.23,
       "metricas_vecindario": {
         "distancia_media_interna_original": 0.02622,
-        "distancia_media_sinteticos_a_originales": 0.011424,
+        "distancia_media_sinteticos_a_originales": 0.011404,
         "porcentaje_duplicados_exactos": 0.0,
         "riesgo_artefactos": "Bajo (Consistente)"
       }
     },
     "3.0": {
       "estado": "Undersampled / Limpiado",
-      "originales": 329,
-      "finales": 303,
-      "sinteticas_puras_detectadas": 1,
-      "multiplicador": 0.92,
+      "originales": 2960,
+      "finales": 2889,
+      "sinteticas_puras_detectadas": 16,
+      "multiplicador": 0.98,
       "metricas_vecindario": {
-        "distancia_media_interna_original": 0.391416,
-        "distancia_media_sinteticos_a_originales": 0.0,
-        "porcentaje_duplicados_exactos": 100.0,
-        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 100.0%)"
+        "distancia_media_interna_original": 0.118329,
+        "distancia_media_sinteticos_a_originales": 1e-06,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
       }
     },
     "4.0": {
       "estado": "Oversampled",
       "originales": 161751,
-      "finales": 199803,
-      "sinteticas_puras_detectadas": 27504,
-      "multiplicador": 1.24,
+      "finales": 199477,
+      "sinteticas_puras_detectadas": 27456,
+      "multiplicador": 1.23,
       "metricas_vecindario": {
         "distancia_media_interna_original": 0.022419,
-        "distancia_media_sinteticos_a_originales": 0.012393,
+        "distancia_media_sinteticos_a_originales": 0.01241,
         "porcentaje_duplicados_exactos": 0.0,
         "riesgo_artefactos": "Bajo (Consistente)"
       }
     },
     "5.0": {
       "estado": "Undersampled / Limpiado",
-      "originales": 176,
-      "finales": 163,
-      "sinteticas_puras_detectadas": 0,
-      "multiplicador": 0.93
+      "originales": 1581,
+      "finales": 1525,
+      "sinteticas_puras_detectadas": 2,
+      "multiplicador": 0.96,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.042646,
+        "distancia_media_sinteticos_a_originales": 2e-06,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
     },
     "6.0": {
       "estado": "Undersampled / Limpiado",
-      "originales": 185,
-      "finales": 166,
+      "originales": 1667,
+      "finales": 1628,
       "sinteticas_puras_detectadas": 0,
-      "multiplicador": 0.9
+      "multiplicador": 0.98
     },
     "7.0": {
       "estado": "Undersampled / Limpiado",
-      "originales": 254,
-      "finales": 247,
+      "originales": 2283,
+      "finales": 2272,
       "sinteticas_puras_detectadas": 0,
-      "multiplicador": 0.97
+      "multiplicador": 1.0
+    },
+    "8.0": {
+      "estado": "Intacto",
+      "originales": 4,
+      "finales": 4,
+      "sinteticas_puras_detectadas": 1,
+      "multiplicador": 1.0
     },
     "9.0": {
       "estado": "Undersampled / Limpiado",
-      "originales": 1,
-      "finales": 0,
+      "originales": 11,
+      "finales": 4,
       "sinteticas_puras_detectadas": 0,
-      "multiplicador": 0.0
+      "multiplicador": 0.36
     },
     "10.0": {
       "estado": "Oversampled",
       "originales": 111251,
-      "finales": 199868,
-      "sinteticas_puras_detectadas": 65226,
-      "multiplicador": 1.8,
+      "finales": 199245,
+      "sinteticas_puras_detectadas": 65015,
+      "multiplicador": 1.79,
       "metricas_vecindario": {
         "distancia_media_interna_original": 0.001736,
-        "distancia_media_sinteticos_a_originales": 0.001191,
+        "distancia_media_sinteticos_a_originales": 0.001182,
         "porcentaje_duplicados_exactos": 0.0,
         "riesgo_artefactos": "Bajo (Consistente)"
       }
     },
     "11.0": {
       "estado": "Undersampled / Limpiado",
-      "originales": 188,
-      "finales": 163,
+      "originales": 1696,
+      "finales": 1614,
       "sinteticas_puras_detectadas": 0,
-      "multiplicador": 0.87
+      "multiplicador": 0.95
     },
     "12.0": {
       "estado": "Undersampled / Limpiado",
-      "originales": 48,
-      "finales": 9,
+      "originales": 434,
+      "finales": 180,
       "sinteticas_puras_detectadas": 0,
-      "multiplicador": 0.19
+      "multiplicador": 0.41
     },
     "13.0": {
       "estado": "Undersampled / Limpiado",
-      "originales": 1,
+      "originales": 7,
       "finales": 0,
       "sinteticas_puras_detectadas": 0,
       "multiplicador": 0.0
     },
     "14.0": {
       "estado": "Undersampled / Limpiado",
-      "originales": 21,
-      "finales": 0,
+      "originales": 188,
+      "finales": 20,
       "sinteticas_puras_detectadas": 0,
-      "multiplicador": 0.0
+      "multiplicador": 0.11
     }
   }
 }
