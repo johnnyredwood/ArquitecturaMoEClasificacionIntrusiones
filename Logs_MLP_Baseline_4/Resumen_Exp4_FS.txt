@@ -1,8 +1,8 @@
 FS Método: F_CLASSIF
-Mejor F1 Macro: 0.7622 (Trial 40)
-Params: {'k_features': 56, 'batch_size': 8192, 'n_layers': 3, 'n_units': 768, 'dropout_rate': 0.18172328610808633, 'activation': 'gelu', 'lr': 0.0001343158989349148, 'weight_decay': 6.058450185160175e-06, 'epochs': 87}
+Mejor F1 Macro: 0.7654 (Trial 36)
+Params: {'k_features': 61, 'batch_size': 16384, 'dropout_rate': 0.1861324694703841, 'activation': 'relu', 'lr': 0.003422908654144134, 'weight_decay': 0.0009627685914766978, 'epochs': 59, 'n_layers': 2, 'mlp_shape': 'flat', 'n_units_l0': 768}
 
 FS Método: TREE
-Mejor F1 Macro: 0.7625 (Trial 28)
-Params: {'k_features': 64, 'batch_size': 16384, 'n_layers': 2, 'n_units': 512, 'dropout_rate': 0.4714157544032792, 'activation': 'gelu', 'lr': 0.00039110752343778766, 'weight_decay': 2.8115854270476626e-06, 'epochs': 95}
+Mejor F1 Macro: 0.7677 (Trial 7)
+Params: {'k_features': 55, 'batch_size': 16384, 'dropout_rate': 0.34238984349373813, 'activation': 'relu', 'lr': 0.0009017155653913983, 'weight_decay': 2.4924368445569926e-06, 'epochs': 97, 'n_layers': 2, 'mlp_shape': 'bottleneck', 'n_units_l0': 1024, 'n_units_l1': 832}
 

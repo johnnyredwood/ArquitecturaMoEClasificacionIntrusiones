@@ -1,16 +1,12 @@
 Método de Peso: BALANCED
-Mejor F1 Macro: 0.5339 (Trial 32)
-Params: {'batch_size': 8192, 'n_layers': 3, 'n_units': 1024, 'dropout_rate': 0.2213970132904441, 'activation': 'leaky_relu', 'lr': 0.00013616048474274732, 'weight_decay': 0.00021194662160497766, 'epochs': 93}
+Mejor F1 Macro: 0.5113 (Trial 15)
+Params: {'batch_size': 4096, 'dropout_rate': 0.16887575479164937, 'activation': 'relu', 'lr': 0.0006829341452799716, 'weight_decay': 1.5238375796770498e-05, 'epochs': 98, 'n_layers': 2, 'mlp_shape': 'flat', 'n_units_l0': 512}
 
 Método de Peso: POLYNOMIAL
-Mejor F1 Macro: 0.7879 (Trial 9)
-Params: {'batch_size': 16384, 'n_layers': 3, 'n_units': 512, 'dropout_rate': 0.2630967973253173, 'activation': 'leaky_relu', 'lr': 0.0002269343077526274, 'weight_decay': 0.0003556939051918942, 'epochs': 61, 'poly_alpha': 0.34183481330155585}
+Mejor F1 Macro: 0.8017 (Trial 12)
+Params: {'batch_size': 4096, 'dropout_rate': 0.24543701141820828, 'activation': 'relu', 'lr': 0.0010684080128570837, 'weight_decay': 0.0011027514375384169, 'epochs': 80, 'n_layers': 3, 'mlp_shape': 'bottleneck', 'poly_alpha': 0.10570287929726008, 'n_units_l0': 1024, 'n_units_l1': 1024, 'n_units_l2': 1024}
 
 Método de Peso: EFFECTIVE_SAMPLES
-Mejor F1 Macro: 0.7632 (Trial 21)
-Params: {'batch_size': 8192, 'n_layers': 3, 'n_units': 1024, 'dropout_rate': 0.38459770521762005, 'activation': 'leaky_relu', 'lr': 0.00037713229152096846, 'weight_decay': 1.558387571704663e-05, 'epochs': 78, 'beta_eff_samp': 0.9782743014918257}
-
-Método de Peso: FOCAL
-Mejor F1 Macro: 0.4886 (Trial 43)
-Params: {'batch_size': 4096, 'n_layers': 4, 'n_units': 512, 'dropout_rate': 0.12046863522412905, 'activation': 'leaky_relu', 'lr': 0.00012916294196607163, 'weight_decay': 0.00039406528130825504, 'epochs': 77, 'focal_gamma': 0.7816056178774661}
+Mejor F1 Macro: 0.7620 (Trial 2)
+Params: {'batch_size': 16384, 'dropout_rate': 0.30290820376439054, 'activation': 'relu', 'lr': 0.0014293652441207624, 'weight_decay': 1.3551951917691366e-06, 'epochs': 66, 'n_layers': 2, 'mlp_shape': 'bottleneck', 'beta_eff_samp': 0.9510802749477126, 'n_units_l0': 768, 'n_units_l1': 704}
 

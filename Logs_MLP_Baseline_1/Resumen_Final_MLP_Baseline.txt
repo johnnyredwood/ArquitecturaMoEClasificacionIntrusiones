@@ -1,4 +1,4 @@
 Resultados Finales MLP Baseline (Dataset: None)
-Mejor F1 Macro: 0.7644 (Trial 96)
+Mejor F1 Macro: 0.7677 (Trial 64)
 Mejores Hiperparámetros:
-{'batch_size': 16384, 'n_layers': 2, 'n_units': 512, 'dropout_rate': 0.18489250809426297, 'activation': 'leaky_relu', 'lr': 0.00048640065976150775, 'weight_decay': 1.3043567069476427e-05, 'epochs': 97}
+{'batch_size': 8192, 'dropout_rate': 0.30614487625376946, 'activation': 'relu', 'lr': 0.0013853412459966642, 'weight_decay': 8.70217041489993e-06, 'epochs': 55, 'n_layers': 2, 'mlp_shape': 'bottleneck', 'n_units_l0': 1024, 'n_units_l1': 960}
