@@ -1,0 +1,8 @@
+FS Método: F_CLASSIF
+Mejor F1 Macro: 0.7654 (Trial 36)
+Params: {'k_features': 61, 'batch_size': 16384, 'dropout_rate': 0.1861324694703841, 'activation': 'relu', 'lr': 0.003422908654144134, 'weight_decay': 0.0009627685914766978, 'epochs': 59, 'n_layers': 2, 'mlp_shape': 'flat', 'n_units_l0': 768}
+
+FS Método: TREE
+Mejor F1 Macro: 0.7677 (Trial 7)
+Params: {'k_features': 55, 'batch_size': 16384, 'dropout_rate': 0.34238984349373813, 'activation': 'relu', 'lr': 0.0009017155653913983, 'weight_decay': 2.4924368445569926e-06, 'epochs': 97, 'n_layers': 2, 'mlp_shape': 'bottleneck', 'n_units_l0': 1024, 'n_units_l1': 832}
+
