@@ -1,0 +1,165 @@
+{
+  "metodo": "smote",
+  "proporcion_config": {
+    "9": 30000,
+    "8": 30000
+  },
+  "resumen": {
+    "muestras_antes": 30033,
+    "muestras_despues": 90000,
+    "incremento_total": 59967
+  },
+  "distribucion_original": {
+    "9.0": 25,
+    "8.0": 8,
+    "0.0": 23575,
+    "4.0": 2661,
+    "7.0": 92,
+    "2.0": 1474,
+    "10.0": 1830,
+    "6.0": 67,
+    "12.0": 18,
+    "3.0": 119,
+    "5.0": 64,
+    "11.0": 68,
+    "1.0": 23,
+    "14.0": 8,
+    "13.0": 1
+  },
+  "distribucion_final": {
+    "9.0": 30000,
+    "8.0": 30000,
+    "0.0": 23575,
+    "4.0": 2661,
+    "7.0": 92,
+    "2.0": 1474,
+    "10.0": 1830,
+    "6.0": 67,
+    "12.0": 18,
+    "3.0": 119,
+    "5.0": 64,
+    "11.0": 68,
+    "1.0": 23,
+    "14.0": 8,
+    "13.0": 1
+  },
+  "analisis_por_clase": {
+    "0.0": {
+      "estado": "Intacto",
+      "originales": 23575,
+      "finales": 23575,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "1.0": {
+      "estado": "Intacto",
+      "originales": 23,
+      "finales": 23,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "2.0": {
+      "estado": "Intacto",
+      "originales": 1474,
+      "finales": 1474,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "3.0": {
+      "estado": "Intacto",
+      "originales": 119,
+      "finales": 119,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "4.0": {
+      "estado": "Intacto",
+      "originales": 2661,
+      "finales": 2661,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "5.0": {
+      "estado": "Intacto",
+      "originales": 64,
+      "finales": 64,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "6.0": {
+      "estado": "Intacto",
+      "originales": 67,
+      "finales": 67,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "7.0": {
+      "estado": "Intacto",
+      "originales": 92,
+      "finales": 92,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "8.0": {
+      "estado": "Oversampled",
+      "originales": 8,
+      "finales": 30000,
+      "sinteticas_puras_detectadas": 29992,
+      "multiplicador": 3750.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 4.473054,
+        "distancia_media_sinteticos_a_originales": 1.345611,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "9.0": {
+      "estado": "Oversampled",
+      "originales": 25,
+      "finales": 30000,
+      "sinteticas_puras_detectadas": 29975,
+      "multiplicador": 1200.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 40.387577,
+        "distancia_media_sinteticos_a_originales": 12.047162,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "10.0": {
+      "estado": "Intacto",
+      "originales": 1830,
+      "finales": 1830,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "11.0": {
+      "estado": "Intacto",
+      "originales": 68,
+      "finales": 68,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "12.0": {
+      "estado": "Intacto",
+      "originales": 18,
+      "finales": 18,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "13.0": {
+      "estado": "Intacto",
+      "originales": 1,
+      "finales": 1,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "14.0": {
+      "estado": "Intacto",
+      "originales": 8,
+      "finales": 8,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    }
+  }
+}

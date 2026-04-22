@@ -1,0 +1,177 @@
+{
+  "metodo": "smote_tomek",
+  "proporcion_config": {
+    "3": 108075,
+    "6": 81140,
+    "5": 76980
+  },
+  "resumen": {
+    "muestras_antes": 92091,
+    "muestras_despues": 342873,
+    "incremento_total": 250782
+  },
+  "distribucion_original": {
+    "3.0": 7205,
+    "6.0": 4057,
+    "5.0": 3849,
+    "0.0": 61003,
+    "10.0": 4736,
+    "2.0": 3815,
+    "4.0": 6885,
+    "11.0": 176,
+    "7.0": 237,
+    "12.0": 45,
+    "9.0": 2,
+    "1.0": 59,
+    "14.0": 20,
+    "8.0": 1,
+    "13.0": 1
+  },
+  "distribucion_final": {
+    "3.0": 108073,
+    "6.0": 81056,
+    "5.0": 76899,
+    "0.0": 60944,
+    "10.0": 4710,
+    "2.0": 3812,
+    "4.0": 6874,
+    "11.0": 170,
+    "7.0": 236,
+    "12.0": 37,
+    "9.0": 2,
+    "1.0": 45,
+    "14.0": 14,
+    "8.0": 1
+  },
+  "analisis_por_clase": {
+    "0.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 61003,
+      "finales": 60944,
+      "sinteticas_puras_detectadas": 17,
+      "multiplicador": 1.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.220387,
+        "distancia_media_sinteticos_a_originales": 2e-06,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "1.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 59,
+      "finales": 45,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.76
+    },
+    "2.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 3815,
+      "finales": 3812,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "3.0": {
+      "estado": "Oversampled",
+      "originales": 7205,
+      "finales": 108073,
+      "sinteticas_puras_detectadas": 96732,
+      "multiplicador": 15.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.082038,
+        "distancia_media_sinteticos_a_originales": 0.034885,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "4.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 6885,
+      "finales": 6874,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "5.0": {
+      "estado": "Oversampled",
+      "originales": 3849,
+      "finales": 76899,
+      "sinteticas_puras_detectadas": 64804,
+      "multiplicador": 19.98,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.019706,
+        "distancia_media_sinteticos_a_originales": 0.01246,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "6.0": {
+      "estado": "Oversampled",
+      "originales": 4057,
+      "finales": 81056,
+      "sinteticas_puras_detectadas": 57469,
+      "multiplicador": 19.98,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.023904,
+        "distancia_media_sinteticos_a_originales": 0.013896,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "7.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 237,
+      "finales": 236,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "8.0": {
+      "estado": "Intacto",
+      "originales": 1,
+      "finales": 1,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "9.0": {
+      "estado": "Intacto",
+      "originales": 2,
+      "finales": 2,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "10.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 4736,
+      "finales": 4710,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.99
+    },
+    "11.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 176,
+      "finales": 170,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.97
+    },
+    "12.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 45,
+      "finales": 37,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.82
+    },
+    "13.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 1,
+      "finales": 0,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.0
+    },
+    "14.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 20,
+      "finales": 14,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.7
+    }
+  }
+}
