@@ -1,0 +1,9 @@
+Dataset: SMOTE
+Mejor F1 Macro: 0.8431 (Trial 41)
+Params: {'n_estimators': 239, 'max_depth': 80, 'min_samples_split': 15, 'min_samples_leaf': 2, 'max_features': None, 'criterion': 'gini'}
+Dataset: SMOTE_ENN
+Mejor F1 Macro: 0.8491 (Trial 35)
+Params: {'n_estimators': 200, 'max_depth': 80, 'min_samples_split': 14, 'min_samples_leaf': 2, 'max_features': None, 'criterion': 'gini'}
+Dataset: SMOTE_TOMEK
+Mejor F1 Macro: 0.8374 (Trial 20)
+Params: {'n_estimators': 141, 'max_depth': 76, 'min_samples_split': 18, 'min_samples_leaf': 5, 'max_features': None, 'criterion': 'gini'}

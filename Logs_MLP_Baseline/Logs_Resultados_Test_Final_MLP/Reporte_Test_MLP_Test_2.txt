@@ -1,0 +1,27 @@
+Evaluacion Final en Test Set - MLP Experimento 2 (SMOTE_ENN)
+Hiperparámetros de Optuna: {'batch_size': 4096, 'n_layers': 3, 'n_units': 768, 'dropout_rate': 0.29647145408290937, 'activation': 'leaky_relu', 'lr': 0.00016332182321991082, 'weight_decay': 8.033054547048967e-06, 'epochs': 78}
+
+F1 Macro en Test: 0.7329
+
+Reporte de Clasificación Detallado:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00    307072
+           1       0.22      0.83      0.35       295
+           2       1.00      1.00      1.00     19204
+           3       0.97      1.00      0.98      1544
+           4       0.98      1.00      0.99     34661
+           5       0.90      0.99      0.95       825
+           6       0.98      1.00      0.99       870
+           7       1.00      1.00      1.00      1190
+           8       0.67      1.00      0.80         2
+           9       0.75      0.60      0.67         5
+          10       0.99      1.00      1.00     23840
+          11       0.94      0.99      0.97       884
+          12       0.16      0.86      0.26       226
+          13       0.00      0.00      0.00         3
+          14       0.75      0.03      0.06        98
+
+    accuracy                           0.99    390719
+   macro avg       0.75      0.82      0.73    390719
+weighted avg       1.00      0.99      0.99    390719

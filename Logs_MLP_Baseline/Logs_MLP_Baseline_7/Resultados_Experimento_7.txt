@@ -1,0 +1,4 @@
+Resumen Experimento 7 MLP (Dataset Agrupado):
+Mejor F1 Macro: 0.8949 (Trial 3)
+Parámetros Ganadores:
+{'dataset': 'smote_enn', 'fs_method': 'tree', 'k_features': 50, 'loss_function': 'focal_loss', 'gamma': 2.778862990375387, 'batch_size': 8192, 'dropout_rate': 0.2917607050716218, 'activation': 'relu', 'lr': 0.003542983189540308, 'weight_decay': 0.005117959983878578, 'epochs': 71, 'n_layers': 3, 'mlp_shape': 'flat', 'n_units_l0': 768}

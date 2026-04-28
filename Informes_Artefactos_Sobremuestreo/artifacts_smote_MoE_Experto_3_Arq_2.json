@@ -1,0 +1,172 @@
+{
+  "metodo": "smote",
+  "proporcion_config": {
+    "3": 108075,
+    "6": 81140,
+    "5": 76980
+  },
+  "resumen": {
+    "muestras_antes": 92091,
+    "muestras_despues": 343175,
+    "incremento_total": 251084
+  },
+  "distribucion_original": {
+    "3.0": 7205,
+    "6.0": 4057,
+    "5.0": 3849,
+    "0.0": 61003,
+    "10.0": 4736,
+    "2.0": 3815,
+    "4.0": 6885,
+    "11.0": 176,
+    "7.0": 237,
+    "12.0": 45,
+    "9.0": 2,
+    "1.0": 59,
+    "14.0": 20,
+    "8.0": 1,
+    "13.0": 1
+  },
+  "distribucion_final": {
+    "3.0": 108075,
+    "6.0": 81140,
+    "5.0": 76980,
+    "0.0": 61003,
+    "10.0": 4736,
+    "2.0": 3815,
+    "4.0": 6885,
+    "11.0": 176,
+    "7.0": 237,
+    "12.0": 45,
+    "9.0": 2,
+    "1.0": 59,
+    "14.0": 20,
+    "8.0": 1,
+    "13.0": 1
+  },
+  "analisis_por_clase": {
+    "0.0": {
+      "estado": "Intacto",
+      "originales": 61003,
+      "finales": 61003,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "1.0": {
+      "estado": "Intacto",
+      "originales": 59,
+      "finales": 59,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "2.0": {
+      "estado": "Intacto",
+      "originales": 3815,
+      "finales": 3815,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "3.0": {
+      "estado": "Oversampled",
+      "originales": 7205,
+      "finales": 108075,
+      "sinteticas_puras_detectadas": 100870,
+      "multiplicador": 15.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.082038,
+        "distancia_media_sinteticos_a_originales": 0.033454,
+        "porcentaje_duplicados_exactos": 1.65,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "4.0": {
+      "estado": "Intacto",
+      "originales": 6885,
+      "finales": 6885,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "5.0": {
+      "estado": "Oversampled",
+      "originales": 3849,
+      "finales": 76980,
+      "sinteticas_puras_detectadas": 73131,
+      "multiplicador": 20.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.019706,
+        "distancia_media_sinteticos_a_originales": 0.01116,
+        "porcentaje_duplicados_exactos": 6.3,
+        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 6.3%)"
+      }
+    },
+    "6.0": {
+      "estado": "Oversampled",
+      "originales": 4057,
+      "finales": 81140,
+      "sinteticas_puras_detectadas": 77083,
+      "multiplicador": 20.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.023904,
+        "distancia_media_sinteticos_a_originales": 0.010473,
+        "porcentaje_duplicados_exactos": 3.68,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "7.0": {
+      "estado": "Intacto",
+      "originales": 237,
+      "finales": 237,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "8.0": {
+      "estado": "Intacto",
+      "originales": 1,
+      "finales": 1,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "9.0": {
+      "estado": "Intacto",
+      "originales": 2,
+      "finales": 2,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "10.0": {
+      "estado": "Intacto",
+      "originales": 4736,
+      "finales": 4736,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "11.0": {
+      "estado": "Intacto",
+      "originales": 176,
+      "finales": 176,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "12.0": {
+      "estado": "Intacto",
+      "originales": 45,
+      "finales": 45,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "13.0": {
+      "estado": "Intacto",
+      "originales": 1,
+      "finales": 1,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "14.0": {
+      "estado": "Intacto",
+      "originales": 20,
+      "finales": 20,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    }
+  }
+}

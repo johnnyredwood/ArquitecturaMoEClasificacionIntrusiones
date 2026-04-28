@@ -1,0 +1,183 @@
+{
+  "metodo": "smote_tomek",
+  "proporcion_config": {
+    "12": 10550,
+    "14": 2280,
+    "13": 75
+  },
+  "resumen": {
+    "muestras_antes": 14431,
+    "muestras_despues": 25032,
+    "incremento_total": 10601
+  },
+  "distribucion_original": {
+    "12.0": 1055,
+    "14.0": 456,
+    "13.0": 15,
+    "2.0": 635,
+    "0.0": 10147,
+    "4.0": 1145,
+    "3.0": 51,
+    "10.0": 788,
+    "7.0": 40,
+    "5.0": 28,
+    "11.0": 30,
+    "6.0": 29,
+    "1.0": 10,
+    "9.0": 1,
+    "8.0": 1
+  },
+  "distribucion_final": {
+    "12.0": 10183,
+    "14.0": 1921,
+    "13.0": 66,
+    "2.0": 633,
+    "0.0": 10127,
+    "4.0": 1139,
+    "3.0": 50,
+    "10.0": 776,
+    "7.0": 40,
+    "5.0": 28,
+    "11.0": 30,
+    "6.0": 29,
+    "1.0": 9,
+    "9.0": 1
+  },
+  "analisis_por_clase": {
+    "0.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 10147,
+      "finales": 10127,
+      "sinteticas_puras_detectadas": 4,
+      "multiplicador": 1.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.414784,
+        "distancia_media_sinteticos_a_originales": 0.0,
+        "porcentaje_duplicados_exactos": 75.0,
+        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 75.0%)"
+      }
+    },
+    "1.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 10,
+      "finales": 9,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.9
+    },
+    "2.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 635,
+      "finales": 633,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "3.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 51,
+      "finales": 50,
+      "sinteticas_puras_detectadas": 1,
+      "multiplicador": 0.98,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 1.385603,
+        "distancia_media_sinteticos_a_originales": 0.0,
+        "porcentaje_duplicados_exactos": 100.0,
+        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 100.0%)"
+      }
+    },
+    "4.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 1145,
+      "finales": 1139,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.99
+    },
+    "5.0": {
+      "estado": "Intacto",
+      "originales": 28,
+      "finales": 28,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "6.0": {
+      "estado": "Intacto",
+      "originales": 29,
+      "finales": 29,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "7.0": {
+      "estado": "Intacto",
+      "originales": 40,
+      "finales": 40,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "8.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 1,
+      "finales": 0,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.0
+    },
+    "9.0": {
+      "estado": "Intacto",
+      "originales": 1,
+      "finales": 1,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "10.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 788,
+      "finales": 776,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.98
+    },
+    "11.0": {
+      "estado": "Intacto",
+      "originales": 30,
+      "finales": 30,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "12.0": {
+      "estado": "Oversampled",
+      "originales": 1055,
+      "finales": 10183,
+      "sinteticas_puras_detectadas": 8723,
+      "multiplicador": 9.65,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.020858,
+        "distancia_media_sinteticos_a_originales": 0.008007,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "13.0": {
+      "estado": "Oversampled",
+      "originales": 15,
+      "finales": 66,
+      "sinteticas_puras_detectadas": 51,
+      "multiplicador": 4.4,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.384094,
+        "distancia_media_sinteticos_a_originales": 0.371733,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "14.0": {
+      "estado": "Oversampled",
+      "originales": 456,
+      "finales": 1921,
+      "sinteticas_puras_detectadas": 1509,
+      "multiplicador": 4.21,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.040834,
+        "distancia_media_sinteticos_a_originales": 0.020392,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    }
+  }
+}

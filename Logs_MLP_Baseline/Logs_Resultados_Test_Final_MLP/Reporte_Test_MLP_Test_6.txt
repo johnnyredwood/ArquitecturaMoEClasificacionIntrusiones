@@ -1,0 +1,28 @@
+Evaluacion Final en Test Set - MLP Experimento 6 (Arquitectura Final)
+Configuración: Dataset='none', FS='none', Loss='cross_entropy', Weight='none'
+Hiperparámetros de Optuna: {'batch_size': 16384, 'n_layers': 2, 'n_units': 512, 'dropout_rate': 0.42846027632732114, 'activation': 'gelu', 'lr': 0.0004295534166068324, 'weight_decay': 9.92741862009386e-06, 'epochs': 80}
+
+F1 Macro en Test: 0.7682
+
+Reporte de Clasificación Detallado:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    307072
+           1       0.59      0.58      0.59       295
+           2       1.00      1.00      1.00     19204
+           3       0.99      0.99      0.99      1544
+           4       0.97      1.00      0.99     34661
+           5       0.90      0.98      0.94       825
+           6       0.98      0.95      0.96       870
+           7       0.99      0.99      0.99      1190
+           8       1.00      1.00      1.00         2
+           9       1.00      0.80      0.89         5
+          10       0.99      1.00      1.00     23840
+          11       0.94      0.98      0.96       884
+          12       0.91      0.09      0.17       226
+          13       0.00      0.00      0.00         3
+          14       1.00      0.03      0.06        98
+
+    accuracy                           0.99    390719
+   macro avg       0.88      0.76      0.77    390719
+weighted avg       0.99      0.99      0.99    390719

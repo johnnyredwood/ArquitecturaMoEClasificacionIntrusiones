@@ -1,0 +1,8 @@
+Función de Pérdida: CROSS_ENTROPY
+Mejor F1 Macro: 0.8033 (Trial 38)
+Params Ganadores: {'n_estimators': 364, 'max_depth': 8, 'learning_rate': 0.09528129701037, 'subsample': 0.9446802620350844, 'colsample_bytree': 0.8694334443790379, 'colsample_bynode': 0.7064570933505496}
+
+Función de Pérdida: FOCAL_LOSS
+Mejor F1 Macro: 0.8035 (Trial 43)
+Params Ganadores: {'n_estimators': 479, 'max_depth': 7, 'learning_rate': 0.14439910176278958, 'subsample': 0.9830945340771192, 'colsample_bytree': 0.9970656024220925, 'colsample_bynode': 0.7456600287015384, 'gamma': 0.7299323194869802}
+

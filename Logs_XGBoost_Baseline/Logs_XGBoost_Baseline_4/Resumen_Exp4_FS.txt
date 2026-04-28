@@ -1,0 +1,8 @@
+FS Método: F_CLASSIF
+Mejor F1: 0.8631 (Trial 24)
+Params: {'k_features': 50, 'n_estimators': 213, 'max_depth': 24, 'learning_rate': 0.05222033178604469, 'subsample': 0.938668001851516, 'colsample_bytree': 0.8770750107647156, 'colsample_bynode': 0.9230183814095745}
+
+FS Método: TREE
+Mejor F1: 0.8433 (Trial 27)
+Params: {'k_features': 33, 'n_estimators': 360, 'max_depth': 22, 'learning_rate': 0.03494219787807925, 'subsample': 0.8938864459114102, 'colsample_bytree': 0.8781613218093497, 'colsample_bynode': 0.7044871427236374}
+

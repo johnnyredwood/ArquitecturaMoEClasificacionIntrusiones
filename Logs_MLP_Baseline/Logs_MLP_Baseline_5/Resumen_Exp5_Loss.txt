@@ -1,0 +1,8 @@
+Función de Pérdida: CROSS_ENTROPY
+Mejor F1 Macro: 0.7644 (Trial 77)
+Params: {'batch_size': 8192, 'dropout_rate': 0.4613587190753993, 'activation': 'leaky_relu', 'lr': 0.0019055838256970782, 'weight_decay': 2.3606584523072906e-05, 'epochs': 93, 'n_layers': 2, 'mlp_shape': 'flat', 'n_units_l0': 768}
+
+Función de Pérdida: FOCAL_LOSS
+Mejor F1 Macro: 0.7926 (Trial 94)
+Params: {'batch_size': 4096, 'dropout_rate': 0.3930957415282047, 'activation': 'leaky_relu', 'lr': 0.001164468395435722, 'weight_decay': 7.227789734171198e-06, 'epochs': 98, 'n_layers': 2, 'mlp_shape': 'flat', 'n_units_l0': 768, 'gamma': 2.2503039018081954}
+

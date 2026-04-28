@@ -1,0 +1,198 @@
+{
+  "metodo": "smote_tomek",
+  "proporcion_config": {
+    "0": 1433001,
+    "12": 60000,
+    "1": 60000,
+    "14": 30000,
+    "13": 30000
+  },
+  "resumen": {
+    "muestras_antes": 1465903,
+    "muestras_despues": 1635939,
+    "incremento_total": 170036
+  },
+  "distribucion_original": {
+    "0.0": 1433001,
+    "12.0": 1055,
+    "1.0": 1376,
+    "14.0": 456,
+    "13.0": 15,
+    "2.0": 6937,
+    "10.0": 8612,
+    "4.0": 12526,
+    "3.0": 558,
+    "11.0": 320,
+    "6.0": 315,
+    "7.0": 431,
+    "5.0": 298,
+    "9.0": 2,
+    "8.0": 1
+  },
+  "distribucion_final": {
+    "0.0": 1431733,
+    "12.0": 57805,
+    "1.0": 59201,
+    "14.0": 28522,
+    "13.0": 29067,
+    "2.0": 6933,
+    "10.0": 8304,
+    "4.0": 12476,
+    "3.0": 552,
+    "11.0": 320,
+    "6.0": 312,
+    "7.0": 430,
+    "5.0": 282,
+    "8.0": 1,
+    "9.0": 1
+  },
+  "analisis_por_clase": {
+    "0.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 1433001,
+      "finales": 1431733,
+      "sinteticas_puras_detectadas": 439,
+      "multiplicador": 1.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.084821,
+        "distancia_media_sinteticos_a_originales": 2e-06,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "1.0": {
+      "estado": "Oversampled",
+      "originales": 1376,
+      "finales": 59201,
+      "sinteticas_puras_detectadas": 56168,
+      "multiplicador": 43.02,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.080028,
+        "distancia_media_sinteticos_a_originales": 0.042468,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "2.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 6937,
+      "finales": 6933,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "3.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 558,
+      "finales": 552,
+      "sinteticas_puras_detectadas": 5,
+      "multiplicador": 0.99,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.278215,
+        "distancia_media_sinteticos_a_originales": 1e-06,
+        "porcentaje_duplicados_exactos": 20.0,
+        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 20.0%)"
+      }
+    },
+    "4.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 12526,
+      "finales": 12476,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "5.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 298,
+      "finales": 282,
+      "sinteticas_puras_detectadas": 2,
+      "multiplicador": 0.95,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.148334,
+        "distancia_media_sinteticos_a_originales": 2e-06,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "6.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 315,
+      "finales": 312,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.99
+    },
+    "7.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 431,
+      "finales": 430,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "8.0": {
+      "estado": "Intacto",
+      "originales": 1,
+      "finales": 1,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "9.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 2,
+      "finales": 1,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.5
+    },
+    "10.0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 8612,
+      "finales": 8304,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 0.96
+    },
+    "11.0": {
+      "estado": "Intacto",
+      "originales": 320,
+      "finales": 320,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "12.0": {
+      "estado": "Oversampled",
+      "originales": 1055,
+      "finales": 57805,
+      "sinteticas_puras_detectadas": 54162,
+      "multiplicador": 54.79,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.020858,
+        "distancia_media_sinteticos_a_originales": 0.008139,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "13.0": {
+      "estado": "Oversampled",
+      "originales": 15,
+      "finales": 29067,
+      "sinteticas_puras_detectadas": 29048,
+      "multiplicador": 1937.8,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.384094,
+        "distancia_media_sinteticos_a_originales": 0.327731,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "14.0": {
+      "estado": "Oversampled",
+      "originales": 456,
+      "finales": 28522,
+      "sinteticas_puras_detectadas": 27756,
+      "multiplicador": 62.55,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.040834,
+        "distancia_media_sinteticos_a_originales": 0.017156,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    }
+  }
+}

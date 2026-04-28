@@ -1,0 +1,224 @@
+{
+  "metodo": "smote_enn",
+  "proporcion_config": {
+    "2": 200000,
+    "0": 1433001,
+    "10": 200000,
+    "4": 200000,
+    "6": 30000,
+    "11": 30000,
+    "3": 50000,
+    "7": 50000,
+    "1": 30000,
+    "5": 30000,
+    "9": 100,
+    "12": 30000,
+    "8": 32
+  },
+  "resumen": {
+    "muestras_antes": 1823353,
+    "muestras_despues": 2268391,
+    "incremento_total": 445038
+  },
+  "distribucion_original": {
+    "2": 89619,
+    "0": 1433001,
+    "10": 111251,
+    "4": 161751,
+    "6": 4057,
+    "11": 4128,
+    "3": 7205,
+    "7": 5557,
+    "1": 1376,
+    "5": 3849,
+    "9": 25,
+    "12": 1526,
+    "8": 8
+  },
+  "distribucion_final": {
+    "0": 1427168,
+    "1": 27132,
+    "2": 199867,
+    "3": 49874,
+    "4": 198291,
+    "5": 29774,
+    "6": 29793,
+    "7": 49952,
+    "8": 32,
+    "9": 67,
+    "10": 198279,
+    "11": 28682,
+    "12": 29480
+  },
+  "analisis_por_clase": {
+    "0": {
+      "estado": "Undersampled / Limpiado",
+      "originales": 1433001,
+      "finales": 1427168,
+      "sinteticas_puras_detectadas": 385,
+      "multiplicador": 1.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.08482,
+        "distancia_media_sinteticos_a_originales": 2e-06,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "1": {
+      "estado": "Oversampled",
+      "originales": 1376,
+      "finales": 27132,
+      "sinteticas_puras_detectadas": 25040,
+      "multiplicador": 19.72,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.080026,
+        "distancia_media_sinteticos_a_originales": 0.045735,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "2": {
+      "estado": "Oversampled",
+      "originales": 89619,
+      "finales": 199867,
+      "sinteticas_puras_detectadas": 108490,
+      "multiplicador": 2.23,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.02622,
+        "distancia_media_sinteticos_a_originales": 0.011291,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "3": {
+      "estado": "Oversampled",
+      "originales": 7205,
+      "finales": 49874,
+      "sinteticas_puras_detectadas": 40965,
+      "multiplicador": 6.92,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.082038,
+        "distancia_media_sinteticos_a_originales": 0.034528,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "4": {
+      "estado": "Oversampled",
+      "originales": 161751,
+      "finales": 198291,
+      "sinteticas_puras_detectadas": 27489,
+      "multiplicador": 1.23,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.022419,
+        "distancia_media_sinteticos_a_originales": 0.012433,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "5": {
+      "estado": "Oversampled",
+      "originales": 3849,
+      "finales": 29774,
+      "sinteticas_puras_detectadas": 22980,
+      "multiplicador": 7.74,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.019706,
+        "distancia_media_sinteticos_a_originales": 0.009535,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "6": {
+      "estado": "Oversampled",
+      "originales": 4057,
+      "finales": 29793,
+      "sinteticas_puras_detectadas": 19095,
+      "multiplicador": 7.34,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.023904,
+        "distancia_media_sinteticos_a_originales": 0.010401,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "7": {
+      "estado": "Oversampled",
+      "originales": 5557,
+      "finales": 49952,
+      "sinteticas_puras_detectadas": 25004,
+      "multiplicador": 8.99,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.00309,
+        "distancia_media_sinteticos_a_originales": 0.004919,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "8": {
+      "estado": "Oversampled",
+      "originales": 8,
+      "finales": 32,
+      "sinteticas_puras_detectadas": 25,
+      "multiplicador": 4.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 4.473005,
+        "distancia_media_sinteticos_a_originales": 0.972301,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "9": {
+      "estado": "Oversampled",
+      "originales": 25,
+      "finales": 67,
+      "sinteticas_puras_detectadas": 52,
+      "multiplicador": 2.68,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 40.384959,
+        "distancia_media_sinteticos_a_originales": 18.602394,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "10": {
+      "estado": "Oversampled",
+      "originales": 111251,
+      "finales": 198279,
+      "sinteticas_puras_detectadas": 64691,
+      "multiplicador": 1.78,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.001736,
+        "distancia_media_sinteticos_a_originales": 0.001219,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "11": {
+      "estado": "Oversampled",
+      "originales": 4128,
+      "finales": 28682,
+      "sinteticas_puras_detectadas": 13533,
+      "multiplicador": 6.95,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.012061,
+        "distancia_media_sinteticos_a_originales": 0.005277,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "12": {
+      "estado": "Oversampled",
+      "originales": 1526,
+      "finales": 29480,
+      "sinteticas_puras_detectadas": 26996,
+      "multiplicador": 19.32,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.023176,
+        "distancia_media_sinteticos_a_originales": 0.007098,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    }
+  }
+}

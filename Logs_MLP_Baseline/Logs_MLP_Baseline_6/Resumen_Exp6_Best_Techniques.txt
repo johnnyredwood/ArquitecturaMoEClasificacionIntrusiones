@@ -1,0 +1,4 @@
+Resultados Finales Exp 6 - Combinación de Técnicas
+Mejor F1 Macro: 0.8045 (Trial 87)
+Params del Modelo Ganador:
+{'dataset': 'smote_tomek', 'loss_strategy': 'standard_ce', 'batch_size': 4096, 'dropout_rate': 0.1281038986445995, 'activation': 'leaky_relu', 'lr': 0.0017274962409169771, 'weight_decay': 1.2240270827656692e-05, 'epochs': 53, 'n_layers': 2, 'mlp_shape': 'bottleneck', 'n_units_l0': 1024, 'n_units_l1': 768}

@@ -1,0 +1,218 @@
+{
+  "metodo": "smote",
+  "proporcion_config": {
+    "2": 200000,
+    "0": 1433001,
+    "10": 200000,
+    "4": 200000,
+    "6": 30000,
+    "11": 30000,
+    "3": 50000,
+    "7": 50000,
+    "1": 30000,
+    "5": 30000,
+    "9": 100,
+    "12": 30000,
+    "8": 32
+  },
+  "resumen": {
+    "muestras_antes": 1823353,
+    "muestras_despues": 2283133,
+    "incremento_total": 459780
+  },
+  "distribucion_original": {
+    "2": 89619,
+    "0": 1433001,
+    "10": 111251,
+    "4": 161751,
+    "6": 4057,
+    "11": 4128,
+    "3": 7205,
+    "7": 5557,
+    "1": 1376,
+    "5": 3849,
+    "9": 25,
+    "12": 1526,
+    "8": 8
+  },
+  "distribucion_final": {
+    "2": 200000,
+    "0": 1433001,
+    "10": 200000,
+    "4": 200000,
+    "6": 30000,
+    "11": 30000,
+    "3": 50000,
+    "7": 50000,
+    "1": 30000,
+    "5": 30000,
+    "9": 100,
+    "12": 30000,
+    "8": 32
+  },
+  "analisis_por_clase": {
+    "0": {
+      "estado": "Intacto",
+      "originales": 1433001,
+      "finales": 1433001,
+      "sinteticas_puras_detectadas": 0,
+      "multiplicador": 1.0
+    },
+    "1": {
+      "estado": "Oversampled",
+      "originales": 1376,
+      "finales": 30000,
+      "sinteticas_puras_detectadas": 28624,
+      "multiplicador": 21.8,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.080026,
+        "distancia_media_sinteticos_a_originales": 0.042053,
+        "porcentaje_duplicados_exactos": 0.36,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "2": {
+      "estado": "Oversampled",
+      "originales": 89619,
+      "finales": 200000,
+      "sinteticas_puras_detectadas": 110381,
+      "multiplicador": 2.23,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.02622,
+        "distancia_media_sinteticos_a_originales": 0.011243,
+        "porcentaje_duplicados_exactos": 0.12,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "3": {
+      "estado": "Oversampled",
+      "originales": 7205,
+      "finales": 50000,
+      "sinteticas_puras_detectadas": 42795,
+      "multiplicador": 6.94,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.082038,
+        "distancia_media_sinteticos_a_originales": 0.033122,
+        "porcentaje_duplicados_exactos": 0.62,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "4": {
+      "estado": "Oversampled",
+      "originales": 161751,
+      "finales": 200000,
+      "sinteticas_puras_detectadas": 38249,
+      "multiplicador": 1.24,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.022419,
+        "distancia_media_sinteticos_a_originales": 0.009536,
+        "porcentaje_duplicados_exactos": 13.43,
+        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 13.4%)"
+      }
+    },
+    "5": {
+      "estado": "Oversampled",
+      "originales": 3849,
+      "finales": 30000,
+      "sinteticas_puras_detectadas": 26151,
+      "multiplicador": 7.79,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.019706,
+        "distancia_media_sinteticos_a_originales": 0.01037,
+        "porcentaje_duplicados_exactos": 5.18,
+        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 5.2%)"
+      }
+    },
+    "6": {
+      "estado": "Oversampled",
+      "originales": 4057,
+      "finales": 30000,
+      "sinteticas_puras_detectadas": 25943,
+      "multiplicador": 7.39,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.023904,
+        "distancia_media_sinteticos_a_originales": 0.010096,
+        "porcentaje_duplicados_exactos": 2.02,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "7": {
+      "estado": "Oversampled",
+      "originales": 5557,
+      "finales": 50000,
+      "sinteticas_puras_detectadas": 44443,
+      "multiplicador": 9.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.00309,
+        "distancia_media_sinteticos_a_originales": 0.003487,
+        "porcentaje_duplicados_exactos": 10.6,
+        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 10.6%)"
+      }
+    },
+    "8": {
+      "estado": "Oversampled",
+      "originales": 8,
+      "finales": 32,
+      "sinteticas_puras_detectadas": 24,
+      "multiplicador": 4.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 4.473005,
+        "distancia_media_sinteticos_a_originales": 1.012813,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "9": {
+      "estado": "Oversampled",
+      "originales": 25,
+      "finales": 100,
+      "sinteticas_puras_detectadas": 75,
+      "multiplicador": 4.0,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 40.384959,
+        "distancia_media_sinteticos_a_originales": 15.580142,
+        "porcentaje_duplicados_exactos": 0.0,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    },
+    "10": {
+      "estado": "Oversampled",
+      "originales": 111251,
+      "finales": 200000,
+      "sinteticas_puras_detectadas": 88749,
+      "multiplicador": 1.8,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.001736,
+        "distancia_media_sinteticos_a_originales": 0.000936,
+        "porcentaje_duplicados_exactos": 23.19,
+        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 23.2%)"
+      }
+    },
+    "11": {
+      "estado": "Oversampled",
+      "originales": 4128,
+      "finales": 30000,
+      "sinteticas_puras_detectadas": 25872,
+      "multiplicador": 7.27,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.012061,
+        "distancia_media_sinteticos_a_originales": 0.004393,
+        "porcentaje_duplicados_exactos": 12.22,
+        "riesgo_artefactos": "Alto (Alerta de Duplicidad: 12.2%)"
+      }
+    },
+    "12": {
+      "estado": "Oversampled",
+      "originales": 1526,
+      "finales": 30000,
+      "sinteticas_puras_detectadas": 28474,
+      "multiplicador": 19.66,
+      "metricas_vecindario": {
+        "distancia_media_interna_original": 0.023176,
+        "distancia_media_sinteticos_a_originales": 0.008016,
+        "porcentaje_duplicados_exactos": 0.85,
+        "riesgo_artefactos": "Bajo (Consistente)"
+      }
+    }
+  }
+}

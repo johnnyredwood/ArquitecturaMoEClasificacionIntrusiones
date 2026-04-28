@@ -1,0 +1,28 @@
+Evaluacion Final en Test Set - XGBoost Experimento 4 (F_CLASSIF)
+k_features seleccionadas: 50
+Hiperparámetros de Optuna: {'n_estimators': 213, 'max_depth': 24, 'learning_rate': 0.05222033178604469, 'subsample': 0.938668001851516, 'colsample_bytree': 0.8770750107647156, 'colsample_bynode': 0.9230183814095745, 'tree_method': 'hist', 'device': 'cuda', 'random_state': 42}
+
+F1 Macro en Test: 0.8286
+
+Reporte de Clasificación Detallado:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    307072
+           1       0.79      0.40      0.53       295
+           2       1.00      1.00      1.00     19204
+           3       1.00      0.99      0.99      1544
+           4       1.00      1.00      1.00     34661
+           5       0.99      0.99      0.99       825
+           6       1.00      0.99      1.00       870
+           7       1.00      1.00      1.00      1190
+           8       1.00      1.00      1.00         2
+           9       1.00      0.80      0.89         5
+          10       0.99      1.00      1.00     23840
+          11       0.99      1.00      0.99       884
+          12       0.67      0.68      0.68       226
+          13       0.00      0.00      0.00         3
+          14       0.39      0.36      0.37        98
+
+    accuracy                           1.00    390719
+   macro avg       0.85      0.81      0.83    390719
+weighted avg       1.00      1.00      1.00    390719
