@@ -1,0 +1,23 @@
+Reporte de Clasificacion Mixture of Experts SMOTE_TOMEK (Test)
+
+                           precision    recall  f1-score   support
+
+                   BENIGN     0.9982    0.9981    0.9981    307072
+                      Bot     0.9706    0.3356    0.4987       295
+                     DDoS     0.9996    0.9995    0.9996     19204
+            DoS GoldenEye     0.9922    0.9877    0.9899      1544
+                 DoS Hulk     0.9911    0.9980    0.9945     34661
+         DoS Slowhttptest     0.9067    0.9891    0.9461       825
+            DoS slowloris     0.9841    0.9966    0.9903       870
+              FTP-Patator     0.9992    0.9958    0.9975      1190
+               Heartbleed     1.0000    1.0000    1.0000         2
+             Infiltration     1.0000    0.6000    0.7500         5
+                 PortScan     0.9933    0.9995    0.9964     23840
+              SSH-Patator     0.9433    0.9966    0.9692       884
+  Web Attack  Brute Force     0.9545    0.0929    0.1694       226
+Web Attack  Sql Injection     0.0000    0.0000    0.0000         3
+          Web Attack  XSS     1.0000    0.0306    0.0594        98
+
+                 accuracy                         0.9969    390719
+                macro avg     0.9155    0.7347    0.7573    390719
+             weighted avg     0.9969    0.9969    0.9965    390719

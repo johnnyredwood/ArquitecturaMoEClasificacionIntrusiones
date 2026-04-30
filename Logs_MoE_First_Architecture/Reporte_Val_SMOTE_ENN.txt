@@ -1,0 +1,23 @@
+Reporte de Clasificacion Mixture of Experts SMOTE_ENN (Validacion)
+
+                           precision    recall  f1-score   support
+
+                   BENIGN     0.9985    0.9974    0.9980    307072
+                      Bot     0.6048    0.5966    0.6007       295
+                     DDoS     0.9988    0.9992    0.9990     19204
+            DoS GoldenEye     0.9839    0.9883    0.9861      1544
+                 DoS Hulk     0.9897    0.9999    0.9948     34661
+         DoS Slowhttptest     0.8977    0.9891    0.9412       825
+            DoS slowloris     0.9896    0.9827    0.9861       869
+              FTP-Patator     0.9950    1.0000    0.9975      1191
+               Heartbleed     0.0000    0.0000    0.0000         1
+             Infiltration     0.6667    0.6667    0.6667         6
+                 PortScan     0.9928    0.9990    0.9959     23839
+              SSH-Patator     0.9482    0.9921    0.9696       885
+  Web Attack  Brute Force     1.0000    0.0929    0.1700       226
+Web Attack  Sql Injection     0.0000    0.0000    0.0000         3
+          Web Attack  XSS     1.0000    0.0510    0.0971        98
+
+                 accuracy                         0.9967    390719
+                macro avg     0.8044    0.6903    0.6935    390719
+             weighted avg     0.9967    0.9967    0.9964    390719

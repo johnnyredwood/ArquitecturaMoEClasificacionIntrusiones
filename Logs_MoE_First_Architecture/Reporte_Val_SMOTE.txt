@@ -1,0 +1,23 @@
+Reporte de Clasificacion Mixture of Experts SMOTE (Validacion)
+
+                           precision    recall  f1-score   support
+
+                   BENIGN     0.9981    0.9981    0.9981    307072
+                      Bot     0.9730    0.3661    0.5320       295
+                     DDoS     0.9995    0.9996    0.9996     19204
+            DoS GoldenEye     0.9897    0.9922    0.9909      1544
+                 DoS Hulk     0.9906    0.9973    0.9939     34661
+         DoS Slowhttptest     0.9008    0.9903    0.9434       825
+            DoS slowloris     0.9885    0.9896    0.9891       869
+              FTP-Patator     1.0000    0.9992    0.9996      1191
+               Heartbleed     1.0000    1.0000    1.0000         1
+             Infiltration     0.8000    0.6667    0.7273         6
+                 PortScan     0.9942    0.9992    0.9967     23839
+              SSH-Patator     0.9575    0.9932    0.9750       885
+  Web Attack  Brute Force     1.0000    0.0929    0.1700       226
+Web Attack  Sql Injection     0.0000    0.0000    0.0000         3
+          Web Attack  XSS     1.0000    0.0510    0.0971        98
+
+                 accuracy                         0.9969    390719
+                macro avg     0.9061    0.7424    0.7609    390719
+             weighted avg     0.9969    0.9969    0.9964    390719
