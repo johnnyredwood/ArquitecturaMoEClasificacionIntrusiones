@@ -1,8 +1,0 @@
-{
-    "hidden_layers": [
-        1024,
-        1024
-    ],
-    "dropout": 0.19084752778012587,
-    "activation": "leaky_relu"
-}

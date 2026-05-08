@@ -1,8 +1,0 @@
-{
-    "hidden_layers": [
-        256,
-        256
-    ],
-    "dropout": 0.4344030818662973,
-    "activation": "gelu"
-}
