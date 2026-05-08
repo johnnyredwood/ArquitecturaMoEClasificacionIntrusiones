@@ -1,6 +1,6 @@
 Dataset/
 Sets*/
-Modelos*/
+Models*/
 *.pyc
 *.log
 *.tmp

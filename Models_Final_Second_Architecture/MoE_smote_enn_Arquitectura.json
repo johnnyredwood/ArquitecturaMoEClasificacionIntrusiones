@@ -1,0 +1,13 @@
+{
+    "input_dim": 67,
+    "num_experts": 5,
+    "hidden_layers": [
+        384,
+        256,
+        128
+    ],
+    "dropout_rate": 0.2952698692296816,
+    "activation_name": "leaky_relu",
+    "lr_gating": 0.0006490079302841779,
+    "lr_experts": 1.0408893458332367e-05
+}
